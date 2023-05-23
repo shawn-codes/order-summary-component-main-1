@@ -29,7 +29,7 @@ body {
 .card {
   width: 410px;
   height: 650px;
-  /* background-color: #fff; */
+  background-color: #fff;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -71,14 +71,14 @@ body {
   color: hsl(225, 100%, 94%);
   font-weight: 700;
   background: hsl(245, 75%, 52%);
-  box-shadow: 5px 5px 15px hsla(245, 75%, 52%, 0.1); /* Changed 7 to 1*/
+  box-shadow: 5px 5px 15px hsla(245, 75%, 52%, 0.7);
   border-radius: 7px;
   cursor: pointer;
 }
 
-/* .btn:hover {
+.btn:hover {
   background: hsla(245, 75%, 52%, 0.7);
-} */
+}
 
 .cancel {
   margin-top: 1rem;
